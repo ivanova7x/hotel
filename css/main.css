@@ -96,16 +96,32 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.btn {
+    color: #222222;
+    border: 1px solid #222222;
+    text-transform: uppercase;
+}
 
+nav {
+    text-transform: uppercase;
+}
 
+.jumbotron {
+    background-image: url("../img/hero-bg.jpg");
 
+}
+.jumbotron-heading {
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffffff;
+}
 
-
-
-
-
-
-
+.lead {
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+    color: #ffffff;
+}
 
 
 
