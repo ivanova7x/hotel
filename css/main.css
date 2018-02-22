@@ -96,14 +96,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
 .btn {
     color: #222222;
     border: 1px solid #222222;
     text-transform: uppercase;
+    font-family: "Caviar Dreams";
 }
 
 nav {
     text-transform: uppercase;
+    font-family: "Caviar Dreams";
 }
 
 .jumbotron {
@@ -123,10 +130,36 @@ nav {
     color: #ffffff;
 }
 
+.cara-banner {
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    margin-top: -50px;
+    position: absolute;
+    padding: 15px;
+}
+
+div {
+    display: block;
+}
+
+.reserve {
+    font-family: "Caviar Dreams";
+    text-transform: uppercase;
+    color: #ffffff;
+}
 
 
+body {
+    font-family: Open Sans;
+    line-height: 25px;
+    font-size: 14px;
+}
 
-
+.welcometext {
+    padding: 80px;
+    z-index: 1;
+    text-align: center;
+}
 
 
 /* ==========================================================================
