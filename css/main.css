@@ -103,12 +103,12 @@ textarea {
 }
 
 #navbar {
-    height: 60px;
 }
 
 .btn {
     color: #222222;
     border: 1px solid #222222;
+    border-radius: 2px;
     text-transform: uppercase;
     font-family: "Caviar Dreams";
     font-size: 14px;
@@ -179,7 +179,7 @@ nav {
     background-image: url("../img/hero-bg.jpg");
     background-size: cover;
     min-height: 340px;
-    margin-top: -10px;
+    margin-top: -20px;
     border-radius: 0px;
 }
 
@@ -378,15 +378,21 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 40px;
+    display: inline-block;
+    width: 100%;
 }
 
 .footer-main section {
-    min-width: 200px;
-    /*border: 1px solid yellow;*/
+    width: 30%;
+    border: 1px solid yellow;
     margin: 0px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
+}
+
+.footer-menu {
+    padding-left: 30px;
 }
 
 .footer-menu a {
@@ -395,6 +401,11 @@ body {
     display: block;
     text-align: left;
     padding-left: 40px;
+    line-height: 2em;
+}
+
+.footer-menu a:hover {
+    color: #80bdff;
 }
 
 .footer-menu h5 {
@@ -403,6 +414,12 @@ body {
 
 .contain {
     text-align: center;
+}
+
+.contain img {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 20px;
 }
 
 .bottom {
