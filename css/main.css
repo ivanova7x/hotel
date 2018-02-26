@@ -102,14 +102,17 @@ textarea {
     //*word-wrap: break-word;*//
 }
 
-
+#navbar {
+    height: 60px;
+}
 
 .btn {
     color: #222222;
     border: 1px solid #222222;
     text-transform: uppercase;
     font-family: "Caviar Dreams";
-    margin-left: 20px;
+    font-size: 14px;
+    padding: 0px auto;
 }
 
 .navigation .btn:hover {
@@ -118,16 +121,18 @@ textarea {
 
 .my-0 img {
     width: 20%;
-    height: 20%;
-    margin: 0 auto;
+    height: 15%;
+    margin-top: 6px;
 }
 
 nav {
     text-transform: uppercase;
     font-family: "Caviar Dreams";
-    font-weight: 500;
 }
 
+.navigation {
+    margin-top: 6px;
+}
 
 .navigation a {
     color: black;
@@ -140,6 +145,13 @@ nav {
     color: #17a2b8;
 }
 
+.navigation img {
+    margin-left: 7px;
+}
+
+#selected {
+    color: #80bdff;
+}
 
 
 .jumbotron {
@@ -161,6 +173,24 @@ nav {
     font-size: 40px;
     color: #ffffff;
     text-shadow: 1px 1px 5px black;
+}
+
+.jumbotron-prices {
+    background-image: url("../img/hero-bg.jpg");
+    background-size: cover;
+    min-height: 340px;
+    margin-top: -10px;
+    border-radius: 0px;
+}
+
+.jumbotron-content-prices h1 {
+    font-family: Oswald;
+    color: white;
+    padding-top: 110px;
+    text-shadow: 1px 1px 8px black ;
+    text-transform: uppercase;
+    font-size: 2.6em;
+    line-height: 1.5em;
 }
 
 .lead {
@@ -268,6 +298,81 @@ body {
     margin-left: 40px;
 }
 
+.price-main {
+    text-align: center;
+    padding: 20px;
+}
+
+.pricetable {
+    text-align: center;
+    margin: 0px auto;
+    display: inline-block;
+
+}
+
+.pricetable h1 {
+    text-transform: uppercase;
+    font-family: Oswald;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.price-main h3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+    background-color: #113981;
+    color: white;
+    font-size: 25px;
+    font-family: Oswald;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
 .footer-main {
     background-color: #4e555b;
     color: #ffffff;
@@ -330,6 +435,12 @@ body {
 
 .footer-contact h5 {
     text-transform: uppercase;
+}
+
+
+.footer-contact i {
+    color: white;
+    margin: 5px;
 }
 
 /* ==========================================================================
