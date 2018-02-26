@@ -112,6 +112,16 @@ textarea {
     margin-left: 20px;
 }
 
+.navigation .btn:hover {
+    color: white;
+}
+
+.my-0 img {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+}
+
 nav {
     text-transform: uppercase;
     font-family: "Caviar Dreams";
@@ -220,8 +230,42 @@ body {
     text-decoration: none;
 }
 
-.services .text-container {
-    padding-bottom: 70px;
+.services {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*border: 5px solid #333;*/
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+    background-color: #e2e6ea;
+}
+
+.services div {
+    padding: 20px;
+}
+
+.services ul li {
+    font-family: "Open Sans";
+    line-height: 1.5em;
+    list-style: none;
+}
+
+
+.services-image {
+    float: left;
+}
+.services-image img {
+    display: inline-block;
+}
+
+.post-title {
+    font-family: Oswald;
+    font-weight: normal;
+}
+
+.post-content {
+    display: inline-block;
+    margin-left: 40px;
 }
 
 .footer-main {
