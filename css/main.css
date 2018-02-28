@@ -222,6 +222,10 @@ div {
     padding: 0 auto;
 }
 
+iframe {
+    width: 100%;
+    min-height: 500px;
+}
 
 body {
     font-family: Open Sans;
@@ -263,7 +267,6 @@ body {
 .services {
     padding-top: 40px;
     padding-bottom: 40px;
-    /*border: 5px solid #333;*/
     overflow: hidden;
     width: 100%;
     display: inline-block;
@@ -383,12 +386,13 @@ body {
 }
 
 .footer-main section {
-    width: 30%;
-    border: 1px solid yellow;
-    margin: 0px;
+    /*border: 1px solid yellow;*/
+    margin: 10px 5%;
     display: inline-block;
     vertical-align: top;
     text-align: left;
+    padding: 0px;
+
 }
 
 .footer-menu {
@@ -416,9 +420,12 @@ body {
     text-align: center;
 }
 
-.contain img {
-    width: 20%;
-    height: 20%;
+.footer-img {
+    background-image: url("../img/logo-footer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 180px;
     margin-bottom: 20px;
 }
 
@@ -437,6 +444,7 @@ body {
 
 .hotel-slogan {
     font-family: "Orator Std";
+    max-width: 300px;
 }
 
 .footer-menu {
